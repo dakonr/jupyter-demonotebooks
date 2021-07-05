@@ -1,8 +1,0 @@
-name: calc_pi
-channels:
-  - conda-forge
-dependencies:
-# Core pangeo jupyterhub requirements
-  - python=3.9
-  - matplotlib
-  - numpy
