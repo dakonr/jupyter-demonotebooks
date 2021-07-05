@@ -4,6 +4,5 @@ channels:
 dependencies:
 # Core pangeo jupyterhub requirements
   - python=3.9
-  - matplotlib-base
-  - matplotlib-scalebar
+  - matplotlib
   - numpy
