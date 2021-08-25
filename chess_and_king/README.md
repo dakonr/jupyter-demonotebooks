@@ -1,3 +1,5 @@
+# Story
+
 According to an old legend with rice on the chessboard illustrates the exponential growth. There once lived in India a king named Sher Khan. During his reign, someone invented the game that is now called chess.
 When the inventor, a wise man, came before him, the king said he wanted to give him a reward for this excellent invention. He was rich and powerful enough to grant him any wish, no matter how unusual.
 When the man came before the king again the next day, he asked for a single grain of rice on the first square of the chessboard. The king laughed and asked him if that was really all he could ask for? The man replied that he would like to have two grains of rice on the second square, four on the third, eight on the fourth, and sixteen on the fifth.
