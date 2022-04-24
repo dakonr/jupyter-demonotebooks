@@ -4,6 +4,5 @@ channels:
 dependencies:
 # Core pangeo jupyterhub requirements
   - python=3.10
-  - matplotlib
-  - numpy
-  - pandas
+  - pip:
+    - -r requirements.txt
