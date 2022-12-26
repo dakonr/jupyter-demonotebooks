@@ -72,6 +72,20 @@ async def get_prediction(
     fare: float,
     embarked: EmbarkedClass,
 ) -> PredictionResponse:
+    """Predict the survival chances on titanic
+
+    Args:
+        passenger_class (PassengerClass): Passenger Class
+        sex (GenderClass): Gender of the passenger
+        age (float): age
+        sibsp (int): number of siblings
+        parch (int): number of parents
+        fare (float): fare for the ticket
+        embarked (EmbarkedClass): embarked station
+
+    Returns:
+        PredictionResponse: Prediction Model
+    """
     processed_sex = dict({"female": 0, "male": 1}).get(sex.value)
     processed_embarked = dict({"S": 3, "C": 2, "Q": 1}).get(embarked.value)
     prediction = classfier.predict(
