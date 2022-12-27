@@ -56,7 +56,6 @@ class PredictionResponse(BaseModel):
     age: float
     sibsp: int
     parch: int
-    fare: float
     embarked: int
     prediction: int
     log_proba: List
@@ -69,7 +68,6 @@ async def get_prediction(
     age: float,
     sibsp: int,
     parch: int,
-    fare: float,
     embarked: EmbarkedClass,
 ) -> PredictionResponse:
     """Predict the survival chances on titanic
@@ -96,7 +94,6 @@ async def get_prediction(
                 age,
                 sibsp,
                 parch,
-                fare,
                 processed_embarked,
             ]
         ]
@@ -109,7 +106,6 @@ async def get_prediction(
                 age,
                 sibsp,
                 parch,
-                fare,
                 processed_embarked,
             ]
         ]
@@ -121,7 +117,6 @@ async def get_prediction(
         age=age,
         sibsp=sibsp,
         parch=parch,
-        fare=fare,
         embarked=processed_embarked,
         prediction=prediction[0],
         log_proba=log_proba,
