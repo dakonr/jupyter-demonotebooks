@@ -18,7 +18,7 @@ class PassengerClass(IntEnum):
     """Passenger Class
     1 Cl, 2 Cl, 3 Cl
     Args:
-        IntEnum (int): Passenger Class
+        IntEnum (1|2|3): Passenger Class
     """
 
     first = 1
@@ -30,7 +30,7 @@ class GenderClass(Enum):
     """Gender Selector
 
     Args:
-        Enum (String): Gender of the person, choos between male and female
+        Enum ("female"|"male"): Gender of the person, choose between male and female
     """
 
     female = "female"
@@ -41,7 +41,7 @@ class EmbarkedClass(Enum):
     """Embarked Class
 
     Args:
-        Enum (string): Embarked Station
+        Enum ("S"|"C"|"Q"): Embarked Station
     """
 
     S = "S"
